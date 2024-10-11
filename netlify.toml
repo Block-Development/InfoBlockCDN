@@ -1,0 +1,13 @@
+[[headers]]
+    for = "/*"
+    [headers.values]
+    cache-control = '''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+
+[[redirects]]
+    from = "/*"
+    to = "https://infoblock-cdn.netlify.app/404"
+    status = 404
