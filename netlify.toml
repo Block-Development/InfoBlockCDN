@@ -3,7 +3,12 @@
     [headers.values]
     cache-control = '''
     public,
-    max-age=43200'''
+    max-age=0,
+    no-cache,
+    no-store,
+    must-revalidate'''
+    pragma = '''
+    no-cache'''
 
 [[redirects]]
     from = "/*"
