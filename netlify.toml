@@ -2,10 +2,8 @@
     for = "/*"
     [headers.values]
     cache-control = '''
-    max-age=0,
-    no-cache,
-    no-store,
-    must-revalidate'''
+    public,
+    max-age=43200'''
 
 [[redirects]]
     from = "/*"
